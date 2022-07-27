@@ -5,3 +5,4 @@ You can compile the example code using:
 ```
 gcc -o test -std=c99 -O3 -flto -fno-strict-aliasing *.c
 ```
+**-fno-strict-aliasing is important because the code violates strict aliasing.** 
